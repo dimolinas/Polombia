@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondopolombia"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFB935"
+        android:backgroundTint="#FFB935"
+        android:text="NIVEL XVIII"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/vidasencilla" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Incrementar el número de políticas destinadas a la publicidad de productos de consumo y entretenimiento. Con esto se busca aumentar las aspiraciones económicas de los ciudadanos de Polombia, esperando un aumento en el deseo de tener estilos de vida extravagantes"
+        android:textAlignment="center"
+        android:textSize="29dp"
+        android:textColor="#0C295F"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/levelDieciochoSi"
+            android:layout_width="203dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFB935"
+            android:onClick="levelDieciochoSi"
+            android:text="SÍ"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/levelDieciochoNo"
+            android:layout_width="209dp"
+            android:layout_height="83dp"
+            android:layout_gravity="left"
+            android:background="#FFB935"
+            android:onClick="levelDieciochoNo"
+            android:text="NO"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFB935"
+        android:backgroundTint="#FFB935"
+        android:text="NIVEL II"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="2400dp"
+        android:layout_height="240dp"
+        android:src="@drawable/economia"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Se propone regular los componentes de las materia primas evitando excesiva generación de residuos"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#0C295F"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/levelDosSi"
+            android:layout_width="203dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFB935"
+            android:onClick="levelThreeSi"
+            android:text="SÍ"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/levelDosNo"
+            android:layout_width="209dp"
+            android:layout_height="83dp"
+            android:layout_gravity="left"
+            android:background="#FFB935"
+            android:onClick="levelFourNo"
+            android:text="NO"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+</LinearLayout>

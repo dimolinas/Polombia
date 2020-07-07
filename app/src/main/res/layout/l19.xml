@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondopolombia"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFB935"
+        android:backgroundTint="#FFB935"
+        android:text="NIVEL XIX"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/espiritualidades" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Implementar el cobro de impuestos a lugares de culto dedicados a creencias o religiones distintas a la católica confesional, encaminando a los niños y a sus familias al camino del señor"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#0C295F"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/levelDiecinueveSi"
+            android:layout_width="203dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFB935"
+            android:onClick="levelDiecinueveSi"
+            android:text="SÍ"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/levelDiecinueveNo"
+            android:layout_width="209dp"
+            android:layout_height="83dp"
+            android:layout_gravity="left"
+            android:background="#FFB935"
+            android:onClick="levelDiecinueveNo"
+            android:text="NO"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+</LinearLayout>
