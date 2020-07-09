@@ -2,4 +2,11 @@
     <string name="app_name">Polombia</string>
     <string name="hint_usuario">User</string>
     <string name="login">Login</string>
+    <string name="poblaci_n">Población:</string>
+    <string name="felicidad">Felicidad:</string>
+    <string name="deuda_externa">Deuda Externa:</string>
+    <string name="pib">PIB:</string>
+    <string name="resultados">Resultados:</string>
+    <string name="salir">Salir</string>
+
 </resources>

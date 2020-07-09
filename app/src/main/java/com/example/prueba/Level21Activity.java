@@ -1,11 +1,9 @@
 package com.example.prueba;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 public class Level21Activity extends AppCompatActivity {
 
@@ -16,11 +14,11 @@ public class Level21Activity extends AppCompatActivity {
 
     }
     public void levelVentiunoSi(View view){
-        Intent intent = new Intent(this, Resultados.class);
+        Intent intent = new Intent(this,End.class);
         startActivity(intent);
     }
     public void levelVentiunoNo(View view){
-        Intent intent = new Intent(this, Resultados.class);
+        Intent intent = new Intent(this,End.class);
         startActivity(intent);
 
     }

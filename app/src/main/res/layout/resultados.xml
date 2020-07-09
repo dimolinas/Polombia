@@ -22,7 +22,7 @@
         android:gravity="center"
         android:layout_marginTop="30dp"
         android:textSize="25dp"
-        android:text="Según tus desiciones Polombia contara con los siguientes indicadores  "
+        android:text="Resultados......"
         />
 
 
@@ -47,8 +47,8 @@
                 android:textAlignment="center"
                 android:layout_marginTop="50dp"
                 android:layout_marginLeft="20dp"
-                android:text="Población:"
-                android:textSize="25dp"
+                android:text="@string/poblaci_n"
+                android:textSize="25sp"
                 />
 
             <TextView
@@ -57,7 +57,7 @@
                 android:textAlignment="center"
                 android:layout_marginLeft="20dp"
                 android:text="45 Millones"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 />
 
         </LinearLayout>
@@ -85,8 +85,8 @@
                 android:textAlignment="center"
                 android:layout_marginTop="50dp"
                 android:layout_marginLeft="20dp"
-                android:text="PIB:"
-                android:textSize="25dp"
+                android:text="@string/pib"
+                android:textSize="25sp"
                 />
 
             <TextView
@@ -95,7 +95,7 @@
                 android:textAlignment="center"
                 android:layout_marginLeft="20dp"
                 android:text="140 Billones"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 />
 
         </LinearLayout>
@@ -124,8 +124,8 @@
                 android:textAlignment="center"
                 android:layout_marginTop="50dp"
                 android:layout_marginLeft="20dp"
-                android:text="Deuda Externa:"
-                android:textSize="25dp"
+                android:text="@string/deuda_externa"
+                android:textSize="25sp"
                 />
 
             <TextView
@@ -134,7 +134,7 @@
                 android:textAlignment="center"
                 android:layout_marginLeft="20dp"
                 android:text="148 Billones"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 />
 
         </LinearLayout>
@@ -163,8 +163,8 @@
                 android:textAlignment="center"
                 android:layout_marginTop="50dp"
                 android:layout_marginLeft="20dp"
-                android:text="Felicidad:"
-                android:textSize="25dp"
+                android:text="@string/felicidad"
+                android:textSize="25sp"
                 />
 
             <TextView
@@ -179,7 +179,6 @@
         </LinearLayout>
 
     </LinearLayout>
-
 
     <Button
         android:id="@+id/levelUnoSi"
