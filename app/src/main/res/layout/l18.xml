@@ -29,7 +29,7 @@
         android:layout_marginTop="0dp"
         android:text="Incrementar el número de políticas destinadas a la publicidad de productos de consumo y entretenimiento. Con esto se busca aumentar las aspiraciones económicas de los ciudadanos de Polombia, esperando un aumento en el deseo de tener estilos de vida extravagantes"
         android:textAlignment="center"
-        android:textSize="29dp"
+        android:textSize="25dp"
         android:textColor="#0C295F"
         android:textStyle="bold" />
 

@@ -29,7 +29,7 @@
         android:layout_marginTop="0dp"
         android:text="Implementar el cobro de impuestos a lugares de culto dedicados a creencias o religiones distintas a la católica confesional, encaminando a los niños y a sus familias al camino del señor"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textColor="#0C295F"
         android:textStyle="bold" />
 
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_weight="2"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
         android:orientation="horizontal">
 
         <Button

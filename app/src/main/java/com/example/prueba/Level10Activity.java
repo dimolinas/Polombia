@@ -21,6 +21,5 @@ public class Level10Activity extends AppCompatActivity {
     public void levelNo(View view){
         Intent intent = new Intent(this, Level11Activity.class);
         startActivity(intent);
-
     }
 }

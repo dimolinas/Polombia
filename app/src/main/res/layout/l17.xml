@@ -29,7 +29,7 @@
         android:layout_marginTop="5dp"
         android:text="Se propone unificar los contenidos impartidos en las aulas de clase en distintos contextos socio-culturales, con miras a la educación religiosa y ética. Esto para formar mejores ciudadanos"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textColor="#0C295F"
         android:textStyle="bold" />
 

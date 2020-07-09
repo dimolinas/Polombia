@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondopolombia"
+    android:background="@drawable/fondo"
     android:orientation="vertical">
 
     <TextView
@@ -30,7 +30,7 @@
         android:layout_marginTop="10dp"
         android:text="Se propone incrementar el IVA en productos de primera necesidad como estrategia para generar ingresos inmediatos que se traducen en excenciones progresivas para productos de lujo."
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textColor="#0C295F"
         android:textStyle="bold" />
 

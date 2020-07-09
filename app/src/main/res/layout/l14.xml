@@ -29,7 +29,7 @@
         android:layout_marginTop="5dp"
         android:text="Se propone mejorar las oportunidades de acceso a educación y empleo a personas menos favorecidas, siendo conscientes de que se deben compensar las desigualdades existentes en los hogares "
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textColor="#0C295F"
         android:textStyle="bold" />
 
